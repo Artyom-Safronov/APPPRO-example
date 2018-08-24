@@ -30,17 +30,7 @@ input[type=text]
 	height:12px;
 }
 
-#content {
-	margin-right:auto;
-	margin-left:auto;
-	vertical-align:middle;
-	width:100%;
-}
-
-#content ul {
-	padding:0px;
-}
-
-#content ul li {
-	margin:3px 0px 3px 0px;
+#dragthing {
+	height: 100px;
+	background-color: #b89;
 }
