@@ -16,10 +16,10 @@
 	</div>
 	<div id="section1" class="sectionID">
 		<div>
-			<input type="text" />
+			<input type="text" onkeydown="console.log(event)" />
 		</div>
 		<div>
-			<textarea name="area" id="area" cols="30" rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus iure sint labore ab fugiat porro dignissimos. Magnam consequatur, fugit, assumenda dignissimos ipsum reprehenderit alias saepe repellendus sed expedita, minima enim!</textarea>
+			<textarea onkeydown="console.log(event)" name="area" id="area" cols="30" rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus iure sint labore ab fugiat porro dignissimos. Magnam consequatur, fugit, assumenda dignissimos ipsum reprehenderit alias saepe repellendus sed expedita, minima enim!</textarea>
 		</div>
 		<div id="dragthing" draggable="true" ondragstart="dragHandler(event)" style="height: 100px;">Drag and drop import</div>
 	</div>
